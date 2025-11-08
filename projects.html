@@ -1,0 +1,279 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Liz Wachira</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">Liz Wachira</a>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li>
+                        <button class="theme-toggle" id="themeToggle">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>My Projects</h1>
+            <p>Explore my data analysis projects and case studies</p>
+        </div>
+    </section>
+
+    <section class="projects-filter">
+        <div class="container">
+            <div class="filter-options">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="dashboard">Dashboards</button>
+                <button class="filter-btn" data-filter="machine-learning">Machine Learning</button>
+                <button class="filter-btn" data-filter="visualization">Visualization</button>
+                <button class="filter-btn" data-filter="analysis">Analysis</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-grid-page">
+        <div class="container">
+            <div class="projects-container">
+                <div class="project-card" data-category="dashboard">
+                    <div class="project-image">
+                        <img src="images/project1.jpg" alt="Sales Performance Dashboard">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Sales Performance Dashboard</h3>
+                        <p>Interactive dashboard analyzing sales trends and performance metrics across multiple regions with real-time data updates.</p>
+                        <div class="project-tech">
+                            <span>Power BI</span>
+                            <span>SQL</span>
+                            <span>Excel</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-outline">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="machine-learning">
+                    <div class="project-image">
+                        <img src="images/project2.jpg" alt="Customer Segmentation">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Customer Segmentation Analysis</h3>
+                        <p>Machine learning clustering analysis to identify distinct customer segments for targeted marketing campaigns and personalized recommendations.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Scikit-learn</span>
+                            <span>Tableau</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-outline">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="visualization">
+                    <div class="project-image">
+                        <img src="images/project3.jpg" alt="Financial Data Analysis">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Financial Data Visualization</h3>
+                        <p>Comprehensive financial data analysis with interactive visualizations for trend analysis and forecasting.</p>
+                        <div class="project-tech">
+                            <span>R</span>
+                            <span>Shiny</span>
+                            <span>ggplot2</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-outline">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="analysis">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Market Research Analysis</h3>
+                        <p>In-depth market research analysis providing insights into consumer behavior and market trends.</p>
+                        <div class="project-tech">
+                            <span>Excel</span>
+                            <span>SPSS</span>
+                            <span>Tableau</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-outline">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="dashboard">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Operations Dashboard</h3>
+                        <p>Real-time operations monitoring dashboard with key performance indicators and alert systems.</p>
+                        <div class="project-tech">
+                            <span>Tableau</span>
+                            <span>Python</span>
+                            <span>API</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-outline">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="machine-learning">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Predictive Maintenance</h3>
+                        <p>Machine learning model for predictive maintenance reducing equipment downtime by 40%.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>Pandas</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-primary">Live Demo</a>
+                            <a href="#" class="btn btn-outline">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Liz Wachira</h3>
+                    <p>Data Analyst specializing in transforming complex data into actionable business insights.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                     
+                        
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Get In Touch</h4>
+                    <p>Ready to transform your data into insights?</p>
+                    <a href="contact.html" class="btn btn-primary">Contact Me</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Liz Wachira. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+</html> -->
